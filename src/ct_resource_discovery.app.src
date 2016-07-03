@@ -1,0 +1,16 @@
+{application, ct_resource_discovery,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { ct_resource_discovery_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [ct_resource_discovery]},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
